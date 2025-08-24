@@ -9,7 +9,7 @@ export default function Signup() {
 
     console.log(data);
 
-    event.target.reset();
+    // event.target.reset();
   }
   return (
     <form onSubmit={handleSubmit}>
